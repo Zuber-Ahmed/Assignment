@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+import { Temp } from './Comp1';
 export default function Home() {
   return (
     <div>
@@ -8,7 +8,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Hello World</h1>
+        <Temp />
       </main>
     </div>
   );
